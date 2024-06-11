@@ -1,0 +1,99 @@
+#comment
+import beginner as "bg" #you cant just import library without as and alias
+
+bg.porgram() #just hello world
+
+#variables
+nil1 = nil #like lua
+boolean1 = true
+boolean2 = false
+number1 = 3
+number2 = 3.14
+string = "these are not all types"
+list = ["there","is","more"]
+array = [3,1,4,5]
+dictionary = {"word1" = "w1"} #you understand now
+
+#loops
+while true
+ print("jello") #forever prints jello
+
+for i in [1,100]
+ print("jello")
+#everything starts with 1, not 0
+
+#conditions
+if 1 = 1
+ print(2)
+else
+ print(1)
+
+if 1 = 1
+ print(2)
+elseif 2 = 1
+ print(1)
+
+
+#math
+print(2 + 2) #4
+print(2 * 2) #4
+print(2 - 2) #0
+print(2 / 2) #1
+
+
+#access
+access example.txt as "examplefile" #like with libraries
+examplefile.write(for i in [1,100] do examplefile.write("jello" n/) #new line is n/ and you can type do if needed in 1 line
+examplefile.open #in terminal the content of the file will be shown
+examplefile.delete(1,"jello")
+                             #^^ the 1 is the line
+examplefile.deletefile() #deletes the file
+
+listing = ["code1","code2","code3"]
+listing2 = [1,2,3]
+userInput("Which code?]
+if userInput = listing2
+ while true
+  userInput(Which code?]
+ until userInput = listing #until is uselful
+
+print(listing[userInput] + listing2[userInput])
+
+tip = "this 
+supports multiple
+
+lines!"
+
+#and i think im done or not
+
+#functions
+function printzero(howmuch)
+ howmuch = userInput("How many zeros?")
+ for i in howmuch
+  print(0)
+
+printzero(6) #000000
+
+#classes
+#there are two types: normal and error
+
+class normal
+ name = userInput("Name?")
+ age = userInput("Age?")
+print("Your name is " + name + "and age is " + age)
+
+
+
+class oops_error #should end with _error
+if 1 = 2
+ print_error("The program is corrupted. Oops!") #now there is print_error
+
+
+#wait
+wait(s(20)) #s, m or h. s = seconds, m = minutes, h = hours
+
+#sorting
+min([1,10]) #1
+max([1,10]) #10
+
+
