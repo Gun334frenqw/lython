@@ -1,7 +1,7 @@
 #comment
 import beginner as "bg" #you cant just import library without as and alias
 
-bg.porgram() #just hello world
+bg.program() #just hello world
 
 #variables
 nil1 = nil #like lua
